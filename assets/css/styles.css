@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #211915;
+}
+
+/* HOME */
+/* HEADER */
+.up{
+    width: 100vw;
+}
+.title{
+    position: absolute;
+    width: 65vw;
+    height: 12vh;
+    font-size: 4vw;
+    font-style: italic;
+    text-align: center;
+    color: #f8e12e;
+    text-shadow: 3px 3px 3px #c64832;
+    background-color: transparent;
+    background-color: #211915;
+    margin-left: 20px;
+}
+.kids_Playing{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* NAV */
+
+.left_Gral{
+    position: absolute;
+    top: 110vh;
+    width: 12vw;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #211915;
+}
+a.left1{
+    display: block;
+    margin-top: 10vh;
+    background-color: #f8e12e;
+    color: #211915;
+    border: solid #c64832;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+}
+a.left2{
+    display: block;
+    margin-top: 10vh;
+    top: 145vh;
+    background-color: #f8e12e;
+    color: #211915;
+    border: solid #c64832;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+}
+a.left3{
+    display: block;
+    margin-top: 10vh;
+    top: 170vh;
+    background-color: #f8e12e;
+    color: #211915;
+    border: solid #c64832;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+}
+a:hover{
+    background-color: #c64832;
+}
+a:active{
+    color: #f8e12e;
+    background-color: #c64832;
+}
+/* SUBTITULO Y LOGO */
+
+section .medium{
+    position: absolute;
+    width: 88vw;
+}
+.second_Title{
+    width: 25vw;
+    font-style: italic;
+    font-weight: bold;
+    color: #211915;
+    background-color: #f8e12e;
+    border: solid #c64832;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+section .logo{
+    width: 17vw;
+    margin-left: 80vw;
+    margin-top: -25vh;
+    background-color: transparent;
+}
+.logo:hover{
+    filter: saturate(180%);
+}
+
+/* ARTICULO */
+
+article{
+    position: absolute;
+    width: 40vw;
+}
+.art1{
+    position: absolute;
+    width: 40vw;
+    font-style: italic;
+    font-weight: bold;
+    color: #f8e12e;
+    background-color: #f8e12e;
+    margin-left: 22vw;
+}
+.art2{
+    position: absolute;
+    width: 40vw;
+    font-style: italic;
+    font-weight: bold;
+    color: #f8e12e;
+    background-color: #f8e12e;
+    margin-left: 22vw;
+    margin-top: 12vh;
+}
+.art3{
+    position: absolute;
+    width: 30vw;
+    font-style: italic;
+    font-weight: bold;
+    color: #f8e12e;
+    background-color: #f8e12e;
+    margin-left: 22vw;
+    margin-top: 25vh;
+}
+
+/* FOTOS */
+
+.right{
+    position: absolute;
+    width: 40vw;
+}
+.slide{
+    position: absolute;
+    width: 40vw;
+    border: solid #c64832;
+    margin-left: 56vw;
+}
+
+/* ABOUT */
+
+.about_Art1{
+    position: absolute;
+    width: 30vw;
+    font-style: italic;
+    font-weight: bold;
+    color: #f8e12e;
+    background-color: #f8e12e;
+    margin-left: 22vw;
+}
+.about_Art2{
+    position: absolute;
+    width: 30vw;
+    font-style: italic;
+    font-weight: bold;
+    color: #f8e12e;
+    background-color: #f8e12e;
+    margin-left: 22vw;
+    margin-top: 26vh;
+}
+.about_Art3{
+    position: absolute;
+    width: 30vw;
+    font-style: italic;
+    font-weight: bold;
+    color: #f8e12e;
+    background-color: #f8e12e;
+    margin-left: 22vw;
+    margin-top: 45vh;
+}
+
+/* CONTACT */
+.contact_Art{
+    position: absolute;
+    width: 30vw;
+    font-style: italic;
+    font-weight: bold;
+    color: #f8e12e;
+    background-color: #f8e12e;
+    margin-left: 22vw;
+}
+.mail{
+    color: #c64832;
+    text-decoration: none;
+}
+.mail:hover{
+    background-color: #f8e12e;
+    transition: .5s;
+}
